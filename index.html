@@ -8,14 +8,15 @@
     <h1>HTML Elements Showcase</h1>
 
     <a href="http://">Table| Forms| Lists| Media</a>
+    <hr>
 
-    <h2>1. Student Grade Table</h2>
-    <table>
+        <h2>1. Student Grade Table</h2>
+    <table border=" 1" cellspacing = 0>
         <thead>
             <tr>
-                <th>    Name</th>
-                <th>    Subject</th>
-                <th>    Grade</th>
+                <th> Name</th>
+                <th> Subject</th>
+                <th> Grade</th>
             </tr>
             <tr>
                 <td>John Doe</td>
@@ -29,52 +30,72 @@
             </tr>
         </thead>
     </table>
-
+        <hr>
     <h2>2. Lists Demo</h2>
     <h3>Ordered List (Top 3)</h3>
-    <p>
-        1. HTML- Structure
-        <br>
-        2. CSS- Styling
-        <br>
-        3. JavaScript- Interactivity
-    </p>
+    <ol>
+        <li>HTML- Structure</li>
+        <li>CSS- Styling</li>
+        <li>JavaScript- Interactivity</li>
+    </ol>
     <h3>Unordered List (Features) : </h3>
-    <p>
-        1. Semantic Markup
-        <br>
-        2.Accessibility Support
-        <br>
-        3. SEO Friendly
-    </p>
-    <h2>3. Registration Form</h2>
-    <form>
-        <fieldset>Sign Up Fieldset
+    <ul>
+        <li>Semantic Markup</li>
+        <li>Accessibility Support</li>
+        <li>SEO Friendly</li>
+    </ul>
+        <hr>
+   
+      <td valign="top" width="50%">
 
+         <h2>3. Registration Form</h2>
+    <form>
+        <fieldset>
+            <legend>Sign Up Fieldset</legend>
             <br>
             <label for="idForUsername">Username:</label>
             <br>
             <input type="text" id="idForUsername">
-            <br>
+            <br><br>
             <label for="idForEmail">Email: </label>
-            <br>
+            <br><br>
             <input type="text" id: idForEmail>
-            <br>
+            <br><br>
             <label for="">Password: </label>
-            <br>
+            <br><br>
             <input type="text number"id="idForPassword">
-            <br>
+            <br><br>
             <label for="Country">Country: </label>
-            <select name="Bangladesh" id="idForCountry"></select>
-            <option value="Bangladesh"></option>
+            <br>
+            <select>
+                <option value="Bangladesh">Bangladesh</option>
+            </select>
+            <br><br>
+            <hr>
+            <input type="checkbox" name="" id="idForCheckbox">
+            <label for="idForCheckbox">I agree to terms</label>
+            <br><br>
+            <button>Register</button>
+            <button>Clear</button>
 
         </fieldset>
-        
-        
-
     </form>
+        <hr>
+   
+        <h3>4. Media & Text</h3>
+        <p>This is a <b>bold</b> and <i>italic</i> text with a <a href="http//">hyperlink</a>
+        </p>
+        <img src="image.png" alt="Description">
+        <br><br>
+        <p>Figure: Sample placeholder image</p>
 
+        <hr>
+        <p>
+        <center>
+            &COPY; 2025 HTML Demo| <a href="http//:">Back To Top</a>
+        </center>
+        </p>
 
-    
 </body>
 </html>
+
